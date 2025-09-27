@@ -7,7 +7,7 @@ hash = "BDB97753374D520A" # default.xex
     name = "Unlock FPS"
     desc = "See note about framerate patches in the README."
     author = "illusion, boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x824a2e94
@@ -20,7 +20,7 @@ hash = "BDB97753374D520A" # default.xex
     name = "Black Shading Fix"
     desc = "Solves most artifacting caused by light environments. Use in tandem with ambient occlusion patch to prevent nearly all other artifacts."
     author = "illusion, boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]] # Force 2x MSAA without tiling
         address = 0x82806a44
@@ -43,7 +43,7 @@ hash = "BDB97753374D520A" # default.xex
     name = "Disable Motion Blur"
     desc = "Solves most ghosting and artifacting caused by quickly panning cameras."
     author = "illusion"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x8236004c
@@ -52,7 +52,7 @@ hash = "BDB97753374D520A" # default.xex
 [[patch]]
     name = "16x Anisotropic Filtering"
     author = "boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x8280e7fc
@@ -114,7 +114,7 @@ hash = "BDB97753374D520A" # default.xex
 [[patch]]
     name = "Show FPS"
     author = "Sowa_95"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]]
         address = 0x83123468
